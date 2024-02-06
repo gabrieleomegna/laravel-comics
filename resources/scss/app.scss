@@ -3,6 +3,7 @@
 // @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "./partials/header";
 @import "./partials/footer";
+@import "./partials/comics";
 
 * {
     @include reset;
@@ -15,3 +16,5 @@ body{
     width: 70%;
     margin: 0 auto;
 }
+
+
