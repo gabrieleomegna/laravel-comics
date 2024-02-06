@@ -1,1 +1,17 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@use './partials/mixins' as *;
+
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./partials/header";
+@import "./partials/footer";
+
+* {
+    @include reset;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
