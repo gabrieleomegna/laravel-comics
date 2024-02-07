@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('pages.home');
 });
 Route::get('/comics', function () {
-    $comics = config('db');
+    $comics = config('db.comics');
     return view('pages.comics', ['comics' => $comics]);
 });
